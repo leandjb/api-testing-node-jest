@@ -1,16 +1,16 @@
-# API TESTING using JEST
+# API TESTING with JEST
 
-## Instalation:
+### Installation:
 ```
     yarn install
 ```
 
-## Run Node-Express Server:
-````
+### Run Node-Express Server:
+```
     node index.js
 ```
 
-## Excecute JEST Test Suite:
+### Excecute Jest Test Suite:
 ```
-    .
+    
 ```
