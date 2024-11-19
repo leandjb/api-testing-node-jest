@@ -5,7 +5,7 @@
     yarn install
 ```
 
-### Run Node-Express Server:
+### Run Node Express Server:
 ```
     yarn start
 ```
@@ -16,5 +16,5 @@ or
 
 ### Excecute Jest Test Suite:
 ```
-    
+    yarn test
 ```
