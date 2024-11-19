@@ -7,7 +7,11 @@
 
 ### Run Node-Express Server:
 ```
-    node index.js
+    yarn start
+```
+or
+```
+    node server.js
 ```
 
 ### Excecute Jest Test Suite:
