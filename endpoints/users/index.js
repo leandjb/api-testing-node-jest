@@ -9,7 +9,7 @@ const handlers = ({ axios }) => ({
     post: async (req, res) => {
         const { body } = req;
         const { data } = await axios.post('https://jsonplaceholder.typicode.com/users', body);
-    
+
         res.status(201).send(data);
     },
 
@@ -17,14 +17,14 @@ const handlers = ({ axios }) => ({
         const { body } = req;
         const { id } = req.params;
         await axios.put(`https://jsonplaceholder.typicode.com/users/${id}`, body);
-    
+
         res.sendStatus(204);
     },
 
-    delete:async (req, res) => {
+    delete: async (req, res) => {
         const { id } = req.params;
         await axios.delete(`https://jsonplaceholder.typicode.com/users/${id}`);
-    
+
         res.sendStatus(204);
     }
 
