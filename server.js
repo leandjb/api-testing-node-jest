@@ -3,7 +3,7 @@ const axios = require('axios');
 const parser = require('body-parser');
 const users = require('./endpoints/users');
 const app = express();
-const port = 3000;
+const port = 3001;
 
 
 app.use(parser.urlencoded({ extended: false }));
@@ -20,3 +20,5 @@ app.delete('/:id', userHandlers.delete);
 app.listen(port, () => {
     console.log(`Server running on port: ${port}`);
 });
+
+module.exports = app
