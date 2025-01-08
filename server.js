@@ -2,7 +2,7 @@ const express = require('express');
 const axios = require('axios');
 const parser = require('body-parser');
 const users = require('./endpoints/users');
-const app = express();
+// const app = express();
 const port = 3001;
 
 
